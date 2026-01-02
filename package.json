@@ -1,0 +1,20 @@
+{
+	"name": "day-10",
+	"version": "1.0.0",
+	"description": "bootcamp koda hari ke 10",
+	"license": "MIT",
+	"author": "Reza Fauzan Adhima",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"dev-mode": "node --watch ./index.js",
+		"start": "node ./index.js",
+		"lint": "npx eslint ./**/*.js",
+		"lint:fix": "npx eslint ./**/*.js --fix",
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.39.2",
+		"eslint": "^9.39.2",
+		"globals": "^17.0.0"
+	}
+}
